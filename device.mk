@@ -8,6 +8,11 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+
+
+TARGET_KERNEL_DIR ?= device/samsung/dm3q-kernel
+TARGET_BOARD_KERNEL_HEADERS := device/samsung/dm3q-kernel/kernel-headers
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3088
 TARGET_SCREEN_WIDTH := 1440

@@ -1,0 +1,1 @@
+allow recovery dm_service:blk_file {ioctl};
