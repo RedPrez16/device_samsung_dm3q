@@ -15,5 +15,8 @@ TARGET_OTA_ASSERT_DEVICE := dm3q
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Kernel
+TARGET_KERNEL_CONFIG := dm3q_defconfig
+
 # Include the proprietary files BoardConfig.
 include vendor/samsung/dm3q/BoardConfigVendor.mk
