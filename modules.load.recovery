@@ -194,7 +194,6 @@ frpc-adsprpc.ko
 rdbg.ko
 lt9611uxc.ko
 qseecom_proxy.ko
-qcom-i2c-pmic.ko
 sec_ap_pmic.ko
 nfc_sec.ko
 sg.ko
@@ -279,7 +278,6 @@ gh_irq_lend.ko
 gh_mem_notifier.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
-qti-glink-adc.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
 sec_arm64_fsimd_debug.ko
