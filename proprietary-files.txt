@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S918BXXS3AWHR
+# All unpinned blobs are extracted from S918BXXU3CXCF
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -133,6 +133,7 @@ vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libPdSdCore.so
 vendor/lib64/libSWB.camera.samsung.so
+vendor/lib64/libTsAf_DM123Q.so
 vendor/lib64/libTsAwbFront_DM3.so
 vendor/lib64/libTsAwb_DM3.so
 vendor/lib64/libcamerapostproc.so
@@ -160,6 +161,8 @@ vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
 vendor/etc/init/init.vendor.onebinary.rc
+vendor/etc/init/init.vendor.rilcommon.rc
+vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_1.json
@@ -182,7 +185,9 @@ vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin
 
 # Vendor firmware
 vendor/firmware/00_generic_xtalk_shape.bin
+vendor/firmware/hmtbtfw20.tlv
 vendor/firmware/hmtnv20.b21
+vendor/firmware/hmtnv20.bin
 vendor/firmware/vl53l8.bin
 vendor/firmware/wez02_dm3_c0.bin
 vendor/firmware/wez02_dm3_c1.bin
