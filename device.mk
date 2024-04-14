@@ -29,3 +29,6 @@ $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/samsung/dm3q/dm3q-vendor.mk)
+
+# Inherit from the common gapps makefile.
+ $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
