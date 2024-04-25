@@ -22,6 +22,8 @@ PRODUCT_MANUFACTURER := Samsung
 
 EVO_BUILD_TYPE := Official
 
+WITH_GMS := false
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
