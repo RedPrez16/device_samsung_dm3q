@@ -20,7 +20,7 @@ PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-S918B
 PRODUCT_MANUFACTURER := Samsung
 
-EVO_BUILD_TYPE := Official
+# EVO_BUILD_TYPE := Official
 
 WITH_GMS := false
 
