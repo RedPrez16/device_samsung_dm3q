@@ -21,6 +21,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-evolution
+
 PRODUCT_PACKAGES += \
     FrameworksResDm3q
 
@@ -29,6 +33,3 @@ $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/samsung/dm3q/dm3q-vendor.mk)
-
-# Inherit from the common gapps makefile.
- $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
